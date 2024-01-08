@@ -304,89 +304,6 @@ import {
   ◈ .trace
   ╰──────────⳹
   `
-  let nsfwmenu = `
-  ✦ ───『 *nsfw* 』─── ⚝
-  ◈ .genshin
-  ◈ .swimsuit
-  ◈ .schoolswimsuit
-  ◈ .white
-  ◈ .barefoot
-  ◈ .touhou
-  ◈ .gamecg
-  ◈ .hololive
-  ◈ .uncensored
-  ◈ .sunglasses
-  ◈ .glasses
-  ◈ .weapon
-  ◈ .shirtlift
-  ◈ .chain
-  ◈ .fingering
-  ◈ .flatchest
-  ◈ .torncloth
-  ◈ .bondage
-  ◈ .demon
-  ◈ .wet
-  ◈ .pantypull
-  ◈ .headdress
-  ◈ .headphone
-  ◈ .tie
-  ◈ .anusview
-  ◈ .shorts
-  ◈ .stokings
-  ◈ .topless
-  ◈ .beach
-  ◈ .bunnygirl
-  ◈ .bunnyear
-  ◈ .idol
-  ◈ .vampire
-  ◈ .gun
-  ◈ .maid
-  ◈ .bra
-  ◈ .nobra
-  ◈ .bikini
-  ◈ .whitehair
-  ◈ .blonde
-  ◈ .pinkhair
-  ◈ .bed
-  ◈ .ponytail
-  ◈ .nude
-  ◈ .dress
-  ◈ .underwear
-  ◈ .foxgirl
-  ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
-  ◈ .breast
-  ◈ .twintail
-  ◈ .spreadpussy
-  ◈ .tears
-  ◈ .seethrough
-  ◈ .breasthold
-  ◈ .drunk
-  ◈ .fateseries
-  ◈ .spreadlegs
-  ◈ .openshirt
-  ◈ .headband
-  ◈ .food
-  ◈ .close
-  ◈ .tree
-  ◈ .nipples
-  ◈ .erectnipples
-  ◈ .horns
-  ◈ .greenhair
-  ◈ .wolfgirl
-  ◈ .catgirl
-  ◈ .nsfw
-  ◈ .ass
-  ◈ .boobs
-  ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
-  ╰──────────⳹`
   
   let toolsmenu = `
   ✦ ───『 *tools* 』─── ⚝
@@ -445,8 +362,8 @@ import {
   `
   let religionmenu = `
   ✦ ───『 *religion* 』─── ⚝
-  ◈ .gita [verse_number]
   ◈ .quran [surah_number|surah_name]
+  ◈ .gita [verse_number]
   ╰──────────⳹`
   
   let botmenu = `
@@ -583,11 +500,10 @@ import {
   │ *11.* News Menu
   │ *12.* Economy Menu
   │ *13.* Anime Menu
-  │ *14.* NSFW Menu
-  │ *15.* Tools Menu
-  │ *16.* AI Menu
-  │ *17.* Religion Menu
-  │ *18.* Plugin Menu
+  │ *14.* Tools Menu
+  │ *15.* AI Menu
+  │ *16.* Religion Menu
+  │ *17.* Plugin Menu
   ╰───────⳹
  ${readMore}` 
 ;
@@ -618,75 +534,75 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: animemenu
       }, { quoted:fcontact });
-      } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      } else if (choice === "200") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
-      } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      } else if (choice === "14") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: toolsmenu
       }, { quoted:fcontact });
-      } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      } else if (choice === "15") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: Aimenu
       }, { quoted:fcontact });
-      } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      } else if (choice === "16") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: religionmenu
       }, { quoted:fcontact });
-      } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+      } else if (choice === "17") {
+        await conn.sendMessage(m.chat, { image: { url: 'https://graph.org/file/56c0fb63b1eb1b2ca789c.jpg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
